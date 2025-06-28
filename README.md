@@ -23,12 +23,12 @@ Soal interview frontend PT Data Integrasi Inovasi Tangerang, membuat komponen da
 
 | Prop              | Type                                                                                 | Default    |
 | ----------------- | ------------------------------------------------------------------------------------ | ---------- |
-| `variant`         | `'primary'` \| `'secondary'` \| `'safe'` \| `'warning'` \| `'danger'` \| `'outline'` | `'primary'`|
-| `size`            | `'sm'` \| `'base'` \| `'lg'`                                                         | `'base'`   |
+| `variant`         | `'primary' \| 'secondary' \| 'safe' \| 'warning' \| 'danger' \| 'outline'`           | `'primary'`|
+| `size`            | `'sm' \| 'base' \| 'lg'`                                                             | `'base'`   |
 | `icon`            | `LucideIcon`                                                                         | -          |
-| `iconPosition`    | `'left'` \| `'right'`                                                                | `'right'`  |
+| `iconPosition`    | `'left' \| 'right'`                                                                  | `'right'`  |
 | `tooltip`         | `string`                                                                             | -          |
-| `tooltipPosition` | `'top'` \| `'bottom'` \| `'left'` \| `'right'`                                       | `'top'`    |
+| `tooltipPosition` | `'top' \| 'bottom' \| 'left' \| 'right'`                                             | `'top'`    |
 
 
 ## Setup Instructions
