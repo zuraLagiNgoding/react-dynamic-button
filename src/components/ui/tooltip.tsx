@@ -6,11 +6,11 @@ type TooltipProps = {
   children: React.ReactNode;
 };
 
-export const Tooltip: React.FC<TooltipProps> = ({
+export const Tooltip = ({
   content,
   position = "top",
   children,
-}) => {
+}: TooltipProps) => {
   const [visible, setVisible] = useState(false);
 
   const positionClasses = {
@@ -52,12 +52,12 @@ export const Tooltip: React.FC<TooltipProps> = ({
       {children}
       <div
         className={`
-      absolute z-50 px-2 py-1 text-sm text-white bg-gray-800 rounded
-      whitespace-nowrap
-      ${positionClasses[position]}
-      transition-all duration-200 ease-in-out transform
-      ${visible ? "opacity-100 scale-100" : "opacity-0 scale-95"}
-    `}
+    absolute z-50 px-2 py-1 text-sm text-white bg-gray-800 rounded
+    whitespace-nowrap pointer-events-none
+    ${positionClasses[position]}
+    transition-all duration-200 ease-in-out transform
+    ${visible ? "opacity-100 scale-100" : "opacity-0 scale-95"}
+  `}
       >
         {content}
 
