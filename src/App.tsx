@@ -8,8 +8,8 @@ function App() {
   const [buttonConfig, setButtonConfig] = React.useState<ButtonConfig>({
     variant: "primary",
     size: "base",
-    content: "Click Me",
-    tooltip: "Hello World!",
+    content: "Button",
+    tooltip: "Click Me!",
     tooltipPosition: "top",
     isTooltip: false,
     isIcon: false,
@@ -23,6 +23,7 @@ function App() {
         icon={buttonConfig.isIcon ? PlusCircle : undefined}
         tooltip={buttonConfig.isTooltip ? buttonConfig.tooltip : undefined}
         tooltipPosition={buttonConfig.tooltipPosition}
+        className="shadow-lg"
       >
         {buttonConfig.content}
       </Button>
