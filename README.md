@@ -1,7 +1,5 @@
 # React Dynamic Button
 
-Soal interview frontend PT Data Integrasi Inovasi Tangerang, membuat komponen dasar **Button** dengan catatan :
-
 1. Dinamis background dengan setidaknya 3 warna.
 2. Dapat memiliki ikon atau tidak.
 3. Posisi ikon dapat di sebelah kanan atau kiri label.
